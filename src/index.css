@@ -60,14 +60,15 @@ a {
   #banner_title {
     font-size: 3rem;
   }
-}
+  #banner_moon {
+    display: none;
+  }
 
-/* #app {
-  display: flex;
-  flex-direction: row;
-  flex-wrap:wrap;
+  .menu {
+    text-align: center;
+    float: none;
+    
+    margin: 0px;
+    margin-bottom: 3vh;
+  }
 }
-.menu {
-  width: 300px;
-  float: left;
-} */
