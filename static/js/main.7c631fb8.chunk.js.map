@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.tsx"],"names":[],"mappings":"8GAEA,a","file":"static/js/main.7c631fb8.chunk.js","sourcesContent":["import React from 'react';\nimport ReactDOM from 'react-dom';\nimport './index.css';\nimport App from './App';\n\n// ReactDOM.render(\n//   <App />,\n//   document.getElementById('root')\n// );"],"sourceRoot":""}
