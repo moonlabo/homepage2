@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+* {
+  font-family: 'Arial', 'NanumSquare';
+  margin: 0;
+}
+body {
+  background-color: white;
+  text-align: center;
+}
+a {
+  color: #6392ff;
+  text-decoration: none;
+}
+.menu {
+  background-color: white;
+  margin-right: 15px;
+
+  width: 300px;
+
+  text-align: left;
+
+  float: left;
+}
+
+#banner {
+  background: linear-gradient(to right, #4287ff, #8575ff);
+  color: white;
+
+  padding: 150px;
+
+  text-align: left;
+}
+#banner_title {
+  font-size: 6rem;
+  font-family: "Josefin Sans", "NanumSquare";
+}
+#banner_moon {
+  position: absolute;
+  right: 30px;
+
+  background: white;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 6vh;
+}
+
+@media screen and (max-width: 400px) {
+  #banner {
+    padding: 50px 0px;
+    text-align: center;
+  }
+  #banner_title {
+    font-size: 3rem;
+  }
+}
+
+/* #app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.menu {
+  width: 300px;
+  float: left;
+} */
